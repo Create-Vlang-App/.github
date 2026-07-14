@@ -1,0 +1,88 @@
+<svg width="1280" height="400" viewBox="0 0 1280 400" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Create Vlang App</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f172a"/>
+      <stop offset="0.6" stop-color="#1e1a2e"/>
+      <stop offset="1" stop-color="#1a162b"/>
+    </linearGradient>
+    <linearGradient id="node-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="55%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <radialGradient id="glow-a" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(300 180) scale(350 250)">
+      <stop stop-color="#7c3aed" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-b" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(950 260) scale(380 260)">
+      <stop stop-color="#06b6d4" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="border-grad" x1="0" y1="0" x2="1280" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7c3aed" stop-opacity="0.7"/>
+      <stop offset="0.55" stop-color="#6d28d9" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#06b6d4" stop-opacity="0.7"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" stroke="#94A3B8" stroke-opacity="0.06"/>
+    </pattern>
+    <filter id="node-glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="text-glow" x="-10%" y="-30%" width="120%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="400" fill="url(#bg)"/>
+  <rect width="1280" height="400" fill="url(#grid)"/>
+  <rect width="1280" height="400" fill="url(#glow-a)"/>
+  <rect width="1280" height="400" fill="url(#glow-b)"/>
+  <rect x="1" y="1" width="1278" height="398" stroke="url(#border-grad)" stroke-width="1.5" fill="none"/>
+
+  <!-- Node-graph logomark -->
+  <g transform="translate(110, 130)" filter="url(#node-glow)">
+    <line x1="38" y1="38" x2="68" y2="58" stroke="#a78bfa" stroke-opacity="0.45" stroke-width="3" stroke-linecap="round"/>
+    <line x1="102" y1="38" x2="72" y2="58" stroke="#06b6d4" stroke-opacity="0.45" stroke-width="3" stroke-linecap="round"/>
+    <line x1="70" y1="82" x2="70" y2="108" stroke="#06b6d4" stroke-opacity="0.4" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="28" cy="28" r="16" fill="#a78bfa" fill-opacity="0.15"/>
+    <circle cx="28" cy="28" r="11" fill="#a78bfa" fill-opacity="0.9"/>
+    <circle cx="112" cy="28" r="16" fill="#06b6d4" fill-opacity="0.15"/>
+    <circle cx="112" cy="28" r="11" fill="#06b6d4" fill-opacity="0.9"/>
+    <circle cx="70" cy="70" r="22" fill="url(#node-grad)" fill-opacity="0.15"/>
+    <circle cx="70" cy="70" r="16" fill="url(#node-grad)"/>
+    <circle cx="70" cy="118" r="12" fill="#06b6d4" fill-opacity="0.12"/>
+    <circle cx="70" cy="118" r="8" fill="#06b6d4" fill-opacity="0.75"/>
+  </g>
+
+  <!-- Text content -->
+  <g font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+    <rect x="290" y="128" width="140" height="32" rx="16" fill="#7c3aed" fill-opacity="0.14" stroke="#c4b5fd" stroke-opacity="0.5"/>
+    <text x="360" y="149" text-anchor="middle" fill="#ddd6fe" font-size="13" font-weight="700" letter-spacing="1.2">COMING SOON</text>
+
+    <text x="290" y="222" fill="#F8FAFC" font-size="58" font-weight="900" letter-spacing="-1.5" filter="url(#text-glow)">Create Vlang App</text>
+
+    <text x="290" y="265" fill="#94A3B8" font-size="22" font-weight="400">One command. Any V stack.</text>
+
+    <text x="290" y="306" fill="#64748B" font-size="16" font-weight="400">Web · CLI · Systems · Libraries · and more</text>
+  </g>
+
+  <!-- By the creator of -->
+  <g font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+    <text x="290" y="360" fill="#475569" font-size="14">By a V core team member · creator of</text>
+    <text x="534" y="360" fill="#a78bfa" font-size="14" font-weight="600">vsl · vtl · rxv · setup-v</text>
+  </g>
+
+  <!-- Floating dots -->
+  <g opacity="0.5">
+    <circle cx="1100" cy="120" r="4" fill="#a78bfa"/>
+    <circle cx="1160" cy="200" r="3" fill="#06b6d4"/>
+    <circle cx="1060" cy="280" r="3.5" fill="#a78bfa"/>
+    <circle cx="1140" cy="320" r="2.5" fill="#06b6d4"/>
+    <line x1="1100" y1="124" x2="1060" y2="276" stroke="#a78bfa" stroke-opacity="0.12" stroke-width="1.5"/>
+    <line x1="1160" y1="203" x2="1140" y2="318" stroke="#06b6d4" stroke-opacity="0.12" stroke-width="1.5"/>
+  </g>
+</svg>
