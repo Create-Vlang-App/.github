@@ -76,5 +76,5 @@ The Node.js counterpart is production-ready today:
 | Org | Stack | Status |
 |-----|-------|--------|
 | [Create-Node-App](https://github.com/Create-Node-App) | Node.js, TypeScript | ✅ Production |
-| [Create-Python-App](https://github.com/Create-Python-App) | Python | 🔜 Planned |
+| [Create-Python-App](https://github.com/Create-Python-App) | Python | 🧪 Beta |
 | [Create-Vlang-App](https://github.com/Create-Vlang-App) | V language | 🔜 Planned |
