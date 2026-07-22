@@ -13,7 +13,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/Create-Vlang-App/create-vlang-app/blob/main/LICENSE)
 [![Discord](https://img.shields.io/discord/1527933660764831825?style=flat-square&label=Discord&logo=discord&logoColor=white)](https://discord.gg/dwFTsR7fK2)
 
-[CLI](https://github.com/Create-Vlang-App/create-vlang-app) · [Templates](https://github.com/Create-Vlang-App/cva-templates) · [Website](https://github.com/Create-Vlang-App/website) · [Release 0.1.0](https://github.com/Create-Vlang-App/create-vlang-app/releases/tag/create-vlang-app%400.1.0)
+[CLI](https://github.com/Create-Vlang-App/create-vlang-app) · [Templates](https://github.com/Create-Vlang-App/cva-templates) · [Website](https://create-awesome-vlang-app.vercel.app) · [Release 0.1.0](https://github.com/Create-Vlang-App/create-vlang-app/releases/tag/create-vlang-app%400.1.0)
 
 </div>
 
@@ -74,6 +74,10 @@ Catalog: [cva-templates](https://github.com/Create-Vlang-App/cva-templates)
 ## Status
 
 **Shipped** — CLI Release [`create-vlang-app@0.1.0`](https://github.com/Create-Vlang-App/create-vlang-app/releases/tag/create-vlang-app%400.1.0) (linux amd64) and the official template bank are available. VPM and additional OS assets continue to land in follow-up releases.
+
+Docs & catalog:
+
+→ **[create-awesome-vlang-app.vercel.app](https://create-awesome-vlang-app.vercel.app)**
 
 The Node.js counterpart:
 
