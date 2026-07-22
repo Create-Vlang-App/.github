@@ -9,11 +9,12 @@
 > The scaffolding toolkit for the [V programming language](https://vlang.io) — by a V core team member, built alongside [Create Node App](https://github.com/Create-Node-App).
 
 [![Release](https://img.shields.io/github/v/release/Create-Vlang-App/create-vlang-app?filter=create-vlang-app%40*&style=flat-square&label=Release)](https://github.com/Create-Vlang-App/create-vlang-app/releases/tag/create-vlang-app%400.1.0)
+[![Website](https://img.shields.io/badge/site-create--awesome--vlang--app.vercel.app-8B5CF6?style=flat-square)](https://create-awesome-vlang-app.vercel.app)
 [![V](https://img.shields.io/badge/V-0.5%2B-4B6EAF?style=flat-square)](https://vlang.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/Create-Vlang-App/create-vlang-app/blob/main/LICENSE)
 [![Discord](https://img.shields.io/discord/1527933660764831825?style=flat-square&label=Discord&logo=discord&logoColor=white)](https://discord.gg/dwFTsR7fK2)
 
-[CLI](https://github.com/Create-Vlang-App/create-vlang-app) · [Templates](https://github.com/Create-Vlang-App/cva-templates) · [Website](https://create-awesome-vlang-app.vercel.app) · [Release 0.1.0](https://github.com/Create-Vlang-App/create-vlang-app/releases/tag/create-vlang-app%400.1.0)
+[Official Site](https://create-awesome-vlang-app.vercel.app) · [CLI](https://github.com/Create-Vlang-App/create-vlang-app) · [Templates](https://github.com/Create-Vlang-App/cva-templates) · [Release 0.1.0](https://github.com/Create-Vlang-App/create-vlang-app/releases/tag/create-vlang-app%400.1.0)
 
 </div>
 
@@ -32,6 +33,22 @@ curl -fsSL -o create-vlang-app \
 chmod +x create-vlang-app
 ./create-vlang-app my-project --template web-server --addons github-setup
 ```
+
+---
+
+## Ecosystem
+
+| Repository | Role |
+|------------|------|
+| [create-vlang-app](https://github.com/Create-Vlang-App/create-vlang-app) | CLI + core scaffolding engine |
+| [cva-templates](https://github.com/Create-Vlang-App/cva-templates) | Official template & extension bank |
+| [website](https://github.com/Create-Vlang-App/website) | Docs & catalog UI |
+| [homebrew-tap](https://github.com/Create-Vlang-App/homebrew-tap) | Homebrew formula |
+| [aur-package](https://github.com/Create-Vlang-App/aur-package) | AUR PKGBUILD mirror |
+
+Docs, catalog, and guides: **[create-awesome-vlang-app.vercel.app](https://create-awesome-vlang-app.vercel.app)**
+
+Community: **[Discord](https://discord.gg/dwFTsR7fK2)**
 
 ---
 
@@ -58,7 +75,7 @@ This project is maintained by [Ulises Jeremias](https://github.com/ulises-jeremi
 | Systems App | low-level / GC options | Shipped |
 | vsl / vtl / rxv starters | scientific & reactive | Shipped |
 
-Catalog: [cva-templates](https://github.com/Create-Vlang-App/cva-templates)
+Catalog: [cva-templates](https://github.com/Create-Vlang-App/cva-templates) · [live site](https://create-awesome-vlang-app.vercel.app/templates)
 
 ---
 
@@ -68,6 +85,7 @@ Catalog: [cva-templates](https://github.com/Create-Vlang-App/cva-templates)
 - **Database** — SQLite, PostgreSQL samples
 - **Deployment** — Docker, static binaries
 - **Dev environment** — Dev containers
+- **Domain** — vsl-plotting, vsl-classical-ml, vtl-nn-cpu, vtl-vsl-bridge, rxv-operators
 
 ---
 
