@@ -39,18 +39,18 @@ This project is maintained by [Ulises Jeremias](https://github.com/ulises-jeremi
 
 ---
 
-## Planned Templates
+## Available Templates
 
 | Template | Stack | Status |
 |----------|-------|--------|
-| Web Server | vweb / vibe | Planned |
-| CLI App | os + flag modules | Planned |
-| Library Starter | modules, docs, tests | Planned |
-| Systems App | low-level, no GC | Planned |
+| Web Server | vweb / vibe | Available |
+| CLI App | os + flag modules | Available |
+| Library Starter | modules, docs, tests | Available |
+| Systems App | low-level, no GC | Available |
 
 ---
 
-## Planned Extensions
+## Available Extensions
 
 - **Testing** — built-in `v test`, coverage
 - **Tooling** — `v fmt`, `v vet`, GitHub Actions with [setup-v](https://github.com/vlang/setup-v)
@@ -61,7 +61,7 @@ This project is maintained by [Ulises Jeremias](https://github.com/ulises-jeremi
 
 ## Status
 
-This project is in early planning. V's tooling ecosystem is young — this aims to be the standard scaffolding layer for it.
+This project is in actively developed. V's tooling ecosystem is young — this aims to be the standard scaffolding layer for it.
 
 If you're a V developer and want to contribute, open an issue or watch this org.
 
@@ -77,4 +77,9 @@ The Node.js counterpart is production-ready today:
 |-----|-------|--------|
 | [Create-Node-App](https://github.com/Create-Node-App) | Node.js, TypeScript | ✅ Production |
 | [Create-Python-App](https://github.com/Create-Python-App) | Python | 🧪 Beta |
-| [Create-Vlang-App](https://github.com/Create-Vlang-App) | V language | 🔜 Planned |
+| [Create-Vlang-App](https://github.com/Create-Vlang-App) | V language | ✅ Available |
+
+
+## Status
+
+CLI and cva-templates are on GitHub; first VPM/release track is Wave 2 (`create-vlang-app@0.1.0`).
