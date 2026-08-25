@@ -83,6 +83,24 @@ The Node.js counterpart:
 
 ---
 
+## 👥 Contributors
+
+### `create-vlang-app` — CLI
+
+<a href="https://github.com/Create-Vlang-App/create-vlang-app/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Create-Vlang-App/create-vlang-app" alt="Contributors — create-vlang-app" />
+</a>
+
+### `cva-templates` — Templates & Addons
+
+<a href="https://github.com/Create-Vlang-App/cva-templates/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Create-Vlang-App/cva-templates" alt="Contributors — cva-templates" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
+
+---
+
 ## Part of the Create Awesome App ecosystem
 
 | Org | Stack | Status |
