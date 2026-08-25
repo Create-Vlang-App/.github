@@ -6,7 +6,7 @@
 
 **One command. Any V stack.**
 
-> The scaffolding toolkit for the [V programming language](https://vlang.io) — by a V core team member, built alongside [Create Node App](https://github.com/Create-Node-App).
+> The scaffolding toolkit for the [V programming language](https://vlang.io), by a V core team member, built alongside [Create Node App](https://github.com/Create-Node-App).
 
 [![Release](https://img.shields.io/github/v/release/Create-Vlang-App/create-vlang-app?filter=create-vlang-app%40*&style=flat-square&label=Release)](https://github.com/Create-Vlang-App/create-vlang-app/releases/tag/create-vlang-app%400.1.0)
 [![V](https://img.shields.io/badge/V-0.5%2B-4B6EAF?style=flat-square)](https://vlang.io)
@@ -39,8 +39,8 @@ This project is maintained by [Ulises Jeremias](https://github.com/ulises-jeremi
 
 | Project | Description |
 |---------|-------------|
-| [vlang/vsl](https://github.com/vlang/vsl) | V Scientific Library — linear algebra, stats, optimization |
-| [vlang/vtl](https://github.com/vlang/vtl) | V Tensor Library — n-dimensional tensors for V |
+| [vlang/vsl](https://github.com/vlang/vsl) | V Scientific Library: linear algebra, stats, optimization |
+| [vlang/vtl](https://github.com/vlang/vtl) | V Tensor Library: n-dimensional tensors for V |
 | [ulises-jeremias/rxv](https://github.com/ulises-jeremias/rxv) | Reactive Extensions for V |
 | [vlang/setup-v](https://github.com/vlang/setup-v) | GitHub Action to set up V in CI workflows |
 
@@ -62,16 +62,16 @@ Catalog: [cva-templates](https://github.com/Create-Vlang-App/cva-templates)
 
 ## Available Extensions
 
-- **Tooling** — `v fmt`, `v vet`, GitHub Actions with [setup-v](https://github.com/vlang/setup-v)
-- **Database** — SQLite, PostgreSQL samples
-- **Deployment** — Docker, static binaries
-- **Dev environment** — Dev containers
+- **Tooling**: `v fmt`, `v vet`, GitHub Actions with [setup-v](https://github.com/vlang/setup-v)
+- **Database**: SQLite, PostgreSQL samples
+- **Deployment**: Docker, static binaries
+- **Dev environment**: Dev containers
 
 ---
 
 ## Status
 
-**Shipped** — CLI Release [`create-vlang-app@0.1.0`](https://github.com/Create-Vlang-App/create-vlang-app/releases/tag/create-vlang-app%400.1.0) (linux amd64) and the official template bank are available. VPM and additional OS assets continue to land in follow-up releases.
+**Shipped**: CLI Release [`create-vlang-app@0.1.0`](https://github.com/Create-Vlang-App/create-vlang-app/releases/tag/create-vlang-app%400.1.0) (linux amd64) and the official template bank are available. VPM and additional OS assets continue to land in follow-up releases.
 
 Docs & catalog:
 
@@ -85,16 +85,16 @@ The Node.js counterpart:
 
 ## 👥 Contributors
 
-### `create-vlang-app` — CLI
+### `create-vlang-app`: CLI
 
 <a href="https://github.com/Create-Vlang-App/create-vlang-app/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Create-Vlang-App/create-vlang-app" alt="Contributors — create-vlang-app" />
+  <img src="https://contrib.rocks/image?repo=Create-Vlang-App/create-vlang-app" alt="Contributors for create-vlang-app" />
 </a>
 
-### `cva-templates` — Templates & Addons
+### `cva-templates`: Templates & Addons
 
 <a href="https://github.com/Create-Vlang-App/cva-templates/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Create-Vlang-App/cva-templates" alt="Contributors — cva-templates" />
+  <img src="https://contrib.rocks/image?repo=Create-Vlang-App/cva-templates" alt="Contributors for cva-templates" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
@@ -108,3 +108,4 @@ Made with [contrib.rocks](https://contrib.rocks).
 | [Create-Node-App](https://github.com/Create-Node-App) | Node.js, TypeScript | ✅ Production |
 | [Create-Python-App](https://github.com/Create-Python-App) | Python | 🧪 Beta |
 | [Create-Vlang-App](https://github.com/Create-Vlang-App) | V language | ✅ Shipped (`0.1.0`) |
+| [Create-Rust-App](https://github.com/Create-Rust-App) | Rust | 🔜 Soon |
