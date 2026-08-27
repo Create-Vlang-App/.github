@@ -33,6 +33,14 @@ create-vlang-app my-project --template web-server --addons github-setup
 
 ---
 
+## Community
+
+Questions, ideas, template requests, and collaboration are welcome in the Create Awesome community.
+
+[![Join the Discord community](https://img.shields.io/discord/1527933660764831825?label=Join%20Discord&logo=discord&logoColor=white)](https://discord.gg/bR5VyATgka)
+
+---
+
 ## About the author
 
 This project is maintained by [Ulises Jeremias](https://github.com/ulises-jeremias), a **V language core team member** and author of several foundational libraries in the V ecosystem:
