@@ -91,6 +91,20 @@ The Node.js counterpart:
 
 ---
 
+## 🤝 Contributing
+
+New here? Good first issues are the fastest way in — each repo labels newcomer-friendly work, and the CLI and template bank have full contributing guides:
+
+- [create-vlang-app good first issues](https://github.com/Create-Vlang-App/create-vlang-app/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) · [CONTRIBUTING](https://github.com/Create-Vlang-App/create-vlang-app/blob/main/CONTRIBUTING.md)
+- [cva-templates good first issues](https://github.com/Create-Vlang-App/cva-templates/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) · [CONTRIBUTING](https://github.com/Create-Vlang-App/cva-templates/blob/main/CONTRIBUTING.md)
+- [website good first issues](https://github.com/Create-Vlang-App/website/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) · [contributing docs](https://create-awesome-vlang-app.vercel.app/docs/contributing)
+- [homebrew-tap good first issues](https://github.com/Create-Vlang-App/homebrew-tap/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+- [aur-package good first issues](https://github.com/Create-Vlang-App/aur-package/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+
+Questions and ideas are welcome on [Discord](https://discord.gg/bR5VyATgka) before you open a PR.
+
+---
+
 ## 👥 Contributors
 
 ### `create-vlang-app`: CLI

@@ -1,0 +1,9 @@
+# Default code owners for the Create-Vlang-App organization.
+#
+# This file lives in the org-level `.github` repository so it applies as the
+# fallback for repositories without their own CODEOWNERS. Per-repo files take
+# precedence where present.
+#
+# See https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+* @ulises-jeremias
